@@ -1,12 +1,10 @@
 import 'package:get_it/get_it.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
-import '../../data/datasources/favorites_local_data_source.dart';
-import '../../data/datasources/favorites_shared_prefs_data_source.dart';
-import '../../data/datasources/timeline_asset_data_source.dart';
-import '../../data/datasources/timeline_data_source.dart';
 import '../../data/repositories/favorites_repository_impl.dart';
 import '../../data/repositories/timeline_repository_impl.dart';
+import '../../data/services/favorites_service.dart';
+import '../../data/services/timeline_service.dart';
 import '../../domain/repositories/favorites_repository.dart';
 import '../../domain/repositories/timeline_repository.dart';
 import '../../viewmodels/detail_view_model.dart';
@@ -19,18 +17,16 @@ Future<void> setupServiceLocator() async {
     await SharedPreferences.getInstance(),
   );
 
-  sl.registerLazySingleton<TimelineDataSource>(
-    () => TimelineAssetDataSource(),
-  );
-  sl.registerLazySingleton<FavoritesLocalDataSource>(
-    () => FavoritesSharedPrefsDataSource(sl<SharedPreferences>()),
+  sl.registerLazySingleton<TimelineService>(() => TimelineService());
+  sl.registerLazySingleton<FavoritesService>(
+    () => FavoritesService(sl<SharedPreferences>()),
   );
 
   sl.registerLazySingleton<TimelineRepository>(
-    () => TimelineRepositoryImpl(sl<TimelineDataSource>()),
+    () => TimelineRepositoryImpl(sl<TimelineService>()),
   );
   sl.registerLazySingleton<FavoritesRepository>(
-    () => FavoritesRepositoryImpl(sl<FavoritesLocalDataSource>()),
+    () => FavoritesRepositoryImpl(sl<FavoritesService>()),
     dispose: (repository) => repository.dispose(),
   );
 
