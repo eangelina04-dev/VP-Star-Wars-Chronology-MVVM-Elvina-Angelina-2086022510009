@@ -1,0 +1,142 @@
+[
+  {
+    "id": "naboo-blockade",
+    "title": "Blockade of Naboo",
+    "era": "prequel",
+    "year": -32,
+    "summary": "The Trade Federation blockades the planet Naboo under the secret manipulation of Darth Sidious. Qui-Gon Jinn and Obi-Wan Kenobi are sent to resolve the conflict."
+  },
+  {
+    "id": "anakin-discovery",
+    "title": "Discovery of Anakin Skywalker",
+    "era": "prequel",
+    "year": -32,
+    "summary": "Stranded on Tatooine, Qui-Gon discovers Anakin Skywalker, a slave with the highest midi-chlorian count ever recorded."
+  },
+  {
+    "id": "battle-of-naboo",
+    "title": "Battle of Naboo",
+    "era": "prequel",
+    "year": -32,
+    "summary": "The Gungan and Naboo forces fight the Trade Federation. Darth Maul kills Qui-Gon Jinn before finally being defeated by Obi-Wan Kenobi."
+  },
+  {
+    "id": "clone-wars-begin",
+    "title": "Start of the Clone Wars",
+    "era": "prequel",
+    "year": -22,
+    "summary": "The Battle of Geonosis erupts. The Republic's secretly ordered Clone Army is deployed to fight the Separatist droids led by Count Dooku."
+  },
+  {
+    "id": "secret-wedding",
+    "title": "Secret Wedding",
+    "era": "prequel",
+    "year": -22,
+    "summary": "Anakin Skywalker and Padmé Amidala marry in secret on Naboo, violating the Jedi code that forbids emotional attachment."
+  },
+  {
+    "id": "chancellor-rescue",
+    "title": "Rescue of the Chancellor",
+    "era": "prequel",
+    "year": -19,
+    "summary": "Anakin kills Count Dooku at the urging of Chancellor Palpatine during a rescue mission above the capital city of Coruscant."
+  },
+  {
+    "id": "anakin-fall",
+    "title": "The Fall of Anakin",
+    "era": "prequel",
+    "year": -19,
+    "summary": "Haunted by visions of Padmé's death, Anakin submits to Darth Sidious to learn the dark side and is made Darth Vader."
+  },
+  {
+    "id": "order-66",
+    "title": "Execution of Order 66",
+    "era": "prequel",
+    "year": -19,
+    "summary": "Palpatine issues a secret command that makes the Clone troopers betray and slaughter the Jedi across the galaxy."
+  },
+  {
+    "id": "mustafar-duel",
+    "title": "Duel on Mustafar",
+    "era": "prequel",
+    "year": -19,
+    "summary": "Obi-Wan defeats Darth Vader in an epic duel. The severely burned Vader is rescued and placed inside a life-support suit of armor."
+  },
+  {
+    "id": "twins-born",
+    "title": "Birth of the Twins",
+    "era": "prequel",
+    "year": -19,
+    "summary": "Padmé dies after giving birth to Luke and Leia. The two are separated; Luke is taken to Tatooine and Leia is adopted by the royal family of Alderaan."
+  },
+  {
+    "id": "death-star-plans",
+    "title": "Theft of the Death Star Plans",
+    "era": "original",
+    "year": 0,
+    "summary": "The Rebels manage to steal the blueprints of the Empire's secret weapon, the Death Star, and hide them inside the droid R2-D2."
+  },
+  {
+    "id": "battle-of-yavin",
+    "title": "Battle of Yavin",
+    "era": "original",
+    "year": 0,
+    "summary": "Guided by the Force and the spirit of Obi-Wan, Luke Skywalker fires the proton torpedoes that destroy the first Death Star."
+  },
+  {
+    "id": "battle-of-hoth",
+    "title": "Battle of Hoth",
+    "era": "original",
+    "year": 3,
+    "summary": "The Empire attacks the Rebels' secret base on the ice planet Hoth with a fleet of AT-ATs, forcing the Rebels to flee."
+  },
+  {
+    "id": "cloud-city-reveal",
+    "title": "Revelation at Cloud City",
+    "era": "original",
+    "year": 3,
+    "summary": "In a lightsaber duel, Darth Vader cuts off Luke's hand and reveals a dark truth: 'I am your father'."
+  },
+  {
+    "id": "han-solo-rescue",
+    "title": "Rescue of Han Solo",
+    "era": "original",
+    "year": 4,
+    "summary": "Luke, Leia, and their friends infiltrate Jabba the Hutt's palace on Tatooine to rescue Han Solo, who is frozen in carbonite."
+  },
+  {
+    "id": "battle-of-endor",
+    "title": "Battle of Endor",
+    "era": "original",
+    "year": 4,
+    "summary": "The Rebels destroy the second Death Star's shield generator with the help of the Ewok tribe on the forest moon of Endor."
+  },
+  {
+    "id": "vader-redemption",
+    "title": "Redemption of Darth Vader",
+    "era": "original",
+    "year": 4,
+    "summary": "Unable to bear watching Luke be tortured by Palpatine, Vader sacrifices his life by throwing the Emperor into the reactor. The Empire collapses."
+  },
+  {
+    "id": "first-order-rise",
+    "title": "Rise of the First Order",
+    "era": "sequel",
+    "year": 34,
+    "summary": "The remnants of the Empire form the First Order. Starkiller Base destroys the Hosnian system, the capital of the New Republic."
+  },
+  {
+    "id": "luke-sacrifice",
+    "title": "Luke's Sacrifice",
+    "era": "sequel",
+    "year": 34,
+    "summary": "Luke projects himself to the planet Crait to hold off Kylo Ren, buying the Rebels time to escape, before becoming one with the Force."
+  },
+  {
+    "id": "sith-destruction",
+    "title": "Destruction of the Sith",
+    "era": "sequel",
+    "year": 35,
+    "summary": "Rey Skywalker and Ben Solo unite on Exegol. Rey turns Palpatine's lightning back on him, destroying the Emperor and the Final Order for good."
+  }
+]
