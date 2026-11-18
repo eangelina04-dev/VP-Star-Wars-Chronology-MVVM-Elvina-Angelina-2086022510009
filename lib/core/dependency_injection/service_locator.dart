@@ -19,7 +19,7 @@ Future<void> setupServiceLocator() async {
 
   sl.registerLazySingleton<TimelineService>(() => TimelineService());
   sl.registerLazySingleton<FavoritesService>(
-    () => FavoritesService(sl<SharedPreferences>()),
+    () => FavoritesSharedPrefsService(sl<SharedPreferences>()),
   );
 
   sl.registerLazySingleton<TimelineRepository>(
